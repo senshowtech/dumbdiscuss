@@ -1,8 +1,6 @@
 import { createSlice, current } from "@reduxjs/toolkit";
 
 const initialState = {
-  isAdmin: false,
-  statusPayment: "pending",
   token: "",
   user: {},
 };
